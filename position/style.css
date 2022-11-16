@@ -1,0 +1,19 @@
+body{
+    margin: 20px;
+    padding: 0;
+
+}
+.card{
+    width: 500px;
+    background-color: #ddebf8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid violet;
+
+}
+.avatar{
+    width: 150px;
+}
