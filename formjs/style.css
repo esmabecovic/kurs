@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    margin: 20px;
+}
+.header h3{
+    margin-left: 190px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+#inp{
+    padding: 10px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+}
+form{
+    background-color: rgba(100, 175, 212, 0.192);
+    border-radius: 10px;
+    width: 450px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    align-items: center;
+}
+.button{
+    display: flex;
+    margin: 10px;
+    margin-left: 15px;
+
+}
+#button{
+    padding: 0px;
+    margin: 5px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+}
+p{
+    width: 300px;
+    margin-left: 10px;
+}
+span{
+    color: blue;
+    cursor: pointer;
+}
+.submit{
+    background-color: rgb(87, 87, 237);
+    color: white;
+    cursor: pointer;
+}
+.reset{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
